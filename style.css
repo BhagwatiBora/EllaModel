@@ -1,0 +1,84 @@
+body{
+    background-image: url("./Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:190vh;
+}
+.listDiv{
+    width:100%;
+    height:5vh;
+    position: sticky;
+    top:0;
+}
+.left{
+    float:left;
+    font-size: 30px;
+    margin-top: 10px;
+    color:white;
+}
+.right{
+    float:right;
+    font-size: 20px;
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 13px;
+    color: white;
+}
+a:hover{
+    transition: all .4s;
+    color:salmon;
+}
+
+#home{
+    color:salmon;
+}
+.Description{
+    height:500px;
+    width:400px;
+    margin-top:50px;
+    margin-left:60%;
+    padding:8vh;
+    position:fixed;
+}
+.details{
+    color:white;
+}
+h1{
+    color:salmon;
+    font-size: 80px;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    font-size: larger;
+}
+button{
+    background-color: salmon;
+    border-radius:20px;
+    width:15vh;
+    font-size: 15px;
+    height:5vh;
+}
+button:hover{
+    background-color: rgb(156, 227, 248);
+    border:2px solid white;
+}
+button:focus{
+    background-color: rgb(189, 248, 161);
+    border:1px solid white;
+    cursor: progress;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+    font-size: 13px;
+    color:white;
+    position:fixed;
+  }
